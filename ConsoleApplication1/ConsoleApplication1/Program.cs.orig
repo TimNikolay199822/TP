@@ -10,11 +10,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            Console.ReadLine();
+=======
             var a = new Cirde();
             
             a.Draw();
             Console.WriteLine();
 
+>>>>>>> Circle
         }
     }
 }
