@@ -13,8 +13,11 @@ namespace ConsoleApplication1
             var a = new Cirde();
             
             a.Draw();
-            Console.WriteLine();
-
+            var b = new Square();
+            b.Draw();
+            Console.ReadLine();
+           
+         
         }
     }
 }

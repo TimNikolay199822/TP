@@ -11,14 +11,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 <<<<<<< HEAD
-            Console.ReadLine();
-=======
             var a = new Cirde();
             
             a.Draw();
             Console.WriteLine();
 
->>>>>>> Circle
+=======
+            var b = new Square();
+            b.Draw();
+            Console.ReadLine();
+         
+>>>>>>> Square
         }
     }
 }
