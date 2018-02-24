@@ -11,6 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var a = new Cirde();
+            
             a.Draw();
             Console.WriteLine();
 
