@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Square
+    public class Square : Figure
     {
+        public override void Draw()
+        {
+            Console.WriteLine("Square");
+            Console.WriteLine("*****");
+            Console.WriteLine("*   *");
+            Console.WriteLine("*   *");
+            Console.WriteLine("*   *");
+            Console.WriteLine("*****");
+            Console.WriteLine();
+        }
     }
+
 }
