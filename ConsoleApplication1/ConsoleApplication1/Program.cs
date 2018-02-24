@@ -10,7 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            
+            var b = new Square();
+            b.Draw();
+            Console.WriteLine();
+         
         }
     }
 }
