@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         {
             var b = new Square();
             b.Draw();
-            Console.WriteLine();
+            Console.ReadLine();
          
         }
     }
