@@ -10,8 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var c = new Cirde();
-            var s = new Square();
+            var a = new Cirde();
+            a.Draw();
+            Console.WriteLine();
 
         }
     }
